@@ -1,0 +1,184 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Helvetica;
+    }
+
+    /* Header, navigation bar and search button */
+
+    /* Search bottom */
+
+    /* Banner and card info */
+
+    #main-banner {
+        background: url(../img/banner-nike-jordan.png) no-repeat;
+        background-size: cover;
+        background-position: 0 55%;
+        position: relative;
+        height: 170px;
+        width: 700px;
+        border-top: 1px solid rgb(201, 200, 200);
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .card-info {
+        text-align: center;
+        width: 700px;
+        height: 20px;
+        padding: 20px;
+        margin-top: 5px;
+        background-color: rgb(247, 247, 247);
+        border: 1px solid rgb(219, 219, 219);
+        font-size: 12px;
+    }
+
+    .info-text {
+        text-align: center;
+        padding: 5px;
+    }
+    .bold-info {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .more {
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+
+    }
+
+    /* Product Grid */
+
+    .main-container {
+        background-color: white;
+        min-height: 60vh;
+        padding: 50px;
+        border-bottom: 5px solid rgb(61, 61, 61);
+    }
+
+    .products-container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 31%;
+        display: inline-block;
+        margin: 1% 1%;
+        padding: 15px;
+    }
+
+    .product-image {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        color: rgb(29, 29, 29);
+        font-size: 19px;
+    }
+
+    p {
+        text-align: left;
+        padding: 3px;
+    }
+
+    .text-green {
+        color: green;
+    }
+
+    .cardp p {
+        margin-bottom: 10px;
+    }
+
+    .bold {
+        color: rgb(5, 44, 90);
+        font-weight: 700;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(7, 7, 7);
+        padding: 15px;
+        border-radius: 5px;
+        transition: 0.7s;
+    }
+
+    .btn:hover {
+        background-color: rgb(92, 92, 92);
+    }
+
+    .btn-brev {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #EEE;
+        background-color: rgb(80, 80, 80);
+        padding: 15px;
+        border-radius: 5px;
+        transition: 0.7s;
+        pointer-events: none;
+
+    }
+
+
+    /* Information, help, about the store, payment methods and store name */
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    /* Header, navigation bar and search button */
+
+    /* Search bottom */
+
+    /* Banner and card info */
+
+    /* Product Grid */
+
+    /* Information, help, about the store, payment methods and store name */
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    /* Header, navigation bar and search button */
+
+    /* Search bottom */
+
+    /* Banner and card info */
+
+    /* Product Grid */
+
+    /* Information, help, about the store, payment methods and store name */
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    /* Header, navigation bar and search button */
+
+    /* Search bottom */
+
+    /* Banner and card info */
+
+    /* Product Grid */
+
+    /* Information, help, about the store, payment methods and store name */
+
+}
